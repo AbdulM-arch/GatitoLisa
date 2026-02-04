@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Ellizaveta",
+    valentineName: "Liza",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -22,13 +22,13 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
+            text: "Do I look like a murderer T_T",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            secretAnswer: "Maybe a little but I like you a lot! ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
+            text: "How much do you like me?",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
@@ -42,9 +42,9 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰💝",  // Shows when they go past 5000%
-        high: "Woah you want to pet me? 🚀💝",              // Shows when they go past 1000%
-        normal: "Woah You want to cuddle with me 🥰"                           // Shows when they go past 100%
+        extreme: "WOOOOW You like me that much?? 🥰💝",  // Shows when they go past 5000%
+        high: "Woah you love me and want to pet me? 🚀💝",              // Shows when they go past 1000%
+        normal: "Woah You love me and want to cuddle with me 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
